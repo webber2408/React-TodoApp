@@ -51,8 +51,10 @@ class Todoitem extends Component {
 
 // prop types ----> good practice
 Todoitem.propTypes = {
-    todo: PropTypes.object.isRequired
-}
+    todo: PropTypes.object.isRequired,
+    markComplete: PropTypes.func.isRequired,
+    delTodo: PropTypes.func.isRequired
+  }
 
 // css example
 // const itemStyle = {
